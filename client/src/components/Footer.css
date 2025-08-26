@@ -1,0 +1,81 @@
+.eco-footer {
+  background-color: #1b5e20;
+  color: white;
+  padding: 3rem 1rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.eco-footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.eco-footer-section {
+  flex: 1 1 220px;
+}
+
+.eco-footer-section h3,
+.eco-footer-section h4 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.eco-footer-section p,
+.eco-footer-section li {
+  color: #e0f2f1;
+  font-size: 0.95rem;
+}
+
+.eco-footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.eco-footer-section ul li {
+  margin-bottom: 0.6rem;
+}
+
+.eco-footer-section ul li a {
+  color: #e0f2f1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.eco-footer-section ul li a:hover {
+  color: #a5d6a7;
+}
+
+.eco-footer-socials {
+  margin-top: 1rem;
+}
+.eco-footer-socials a {
+  margin-right: 10px;
+  color: #e0f2f1;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+.eco-footer-socials a:hover {
+  color: #a5d6a7;
+}
+
+/* Footer Bottom */
+.eco-footer-bottom {
+  text-align: center;
+  border-top: 1px solid #388e3c;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+  color: #c8e6c9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .eco-footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

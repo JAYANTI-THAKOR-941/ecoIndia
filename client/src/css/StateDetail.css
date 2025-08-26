@@ -1,0 +1,32 @@
+.state-detail {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.section ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.section p {
+  margin-bottom: 0.5rem;
+}

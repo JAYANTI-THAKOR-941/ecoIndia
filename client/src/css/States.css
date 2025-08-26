@@ -1,0 +1,110 @@
+.states-page {
+  font-family: "Segoe UI", sans-serif;
+  background: #f9fff8;
+  padding-bottom: 3rem;
+}
+
+.hero-header {
+  background: linear-gradient(to right, #c8facc, #e8fce8);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.hero-header h1 {
+  font-size: 2.8rem;
+  color: #2e7d32;
+}
+.hero-header p {
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  margin-top: 10px;
+}
+
+.section-title {
+  font-size: 1.6rem;
+  color: #2e7d32;
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+.filters-container {
+  padding: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 128, 0, 0.1);
+  margin: 1rem auto;
+  max-width: 1000px;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.search-bar, .dropdown {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.highlights {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: #ecf7ee;
+  border-left: 5px solid #4caf50;
+}
+.highlights h3 {
+  color: #2e7d32;
+}
+.highlights ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+.highlights li {
+  margin: 0.5rem 0;
+}
+
+.cards-carousel {
+  padding: 2rem;
+}
+
+.card-container {
+  padding: 0 10px;
+}
+.state-card {
+  height: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+.state-card:hover {
+  transform: scale(1.03);
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.overlay h3 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+.overlay p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+.no-results {
+  text-align: center;
+  color: #999;
+  padding: 2rem;
+}
