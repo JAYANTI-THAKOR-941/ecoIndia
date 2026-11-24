@@ -28,3 +28,24 @@ ECOINDIA frontend is built using **React.js** to provide a modern, responsive, a
 ```bash
 git clone https://github.com/JAYANTI-THAKOR-941/ecoIndia.git
 cd ecoIndia
+
+---
+
+## EcoIndia
+
+React information website with state details, projects, blog and contact pages.
+
+## Project structure
+
+- `client/src/pages/`
+- `client/src/data/`
+- `client/src/components/`
+
+## Getting started
+
+```bash
+git clone https://github.com/JAYANTI-THAKOR-941/ecoIndia.git
+cd ecoIndia
+```
+
+Enter `client`, install dependencies with `npm install`, then run `npm run dev`.
